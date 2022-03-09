@@ -64,6 +64,18 @@ npm install
 
 ## ⚙️ Configuration
 
+Copy or Rename config.json.example to config.json and fill out the values:
+
+⚠️ Note: Never commit or share your token or api keys publicly ⚠️
+```json
+{
+  "clientId": "",
+  "guildId": "",
+  "token": "",
+  "PREFIX": ""
+}
+
+```
 ....
 
 
