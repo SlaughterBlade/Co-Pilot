@@ -29,7 +29,7 @@
 # 🤖 Co-Pilot (All-in-one Discord Bot)
 > Co-Pilot is a discord Bot designed to be the all-in-one, open-source Discord bot that handles all your server needs.
 
-## 📝 Features
+## 📝 To-Do
 
 <ol>
   <li>Playing music</li>
