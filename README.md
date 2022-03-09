@@ -55,6 +55,11 @@
 
 ## 🚀 Getting Started
 
+```sh
+git clone https://github.com/SlaughterBlade/Co-Pilot.git
+cd Co-Pilot
+npm install
+```
 ....
 
 ## ⚙️ Configuration
