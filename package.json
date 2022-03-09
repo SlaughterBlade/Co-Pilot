@@ -24,7 +24,8 @@
     "@discordjs/rest": "^0.3.0",
     "discord-api-types": "^0.28.0",
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "ffmpeg": "^0.0.4"
   },
   "devDependencies": {
     "eslint": "^8.10.0"
