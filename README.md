@@ -46,7 +46,9 @@
   <li>Statics Counter</li>
   <li>Temporary Channeles</li>
   <li>Birthday Reminder</li>
-  <li>Support System</li>
+  <li>Support-Ticket System</li>
+  <li>Stream alerts</li>
+  <li>Game Patch</li>
 </ol>
 
 ## Requirements
