@@ -60,7 +60,6 @@ git clone https://github.com/SlaughterBlade/Co-Pilot.git
 cd Co-Pilot
 npm install
 ```
-....
 
 ## ⚙️ Configuration
 
@@ -76,8 +75,6 @@ Copy or Rename config.json.example to config.json and fill out the values:
 }
 
 ```
-....
-
 
 ## 📝 Current Features & Commands
 
@@ -96,7 +93,6 @@ Copy or Rename config.json.example to config.json and fill out the values:
 5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
 6. Push to the branch: `git push origin my-new-feature`
 7. Submit a pull request
-....
 
 ## 📝 Credits
 
