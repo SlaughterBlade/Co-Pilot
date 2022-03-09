@@ -44,7 +44,7 @@
   <li>Leveling System for Text and VC</li>
   <li>Custom Commands</li>
   <li>Statics Counter</li>
-  <li>Temporary Channeles</li>
+  <li>Temporary Channels</li>
   <li>Birthday Reminder</li>
   <li>Support-Ticket System</li>
   <li>Stream alerts</li>
