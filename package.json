@@ -1,0 +1,30 @@
+{
+  "name": "co-pilot",
+  "version": "1.0.0",
+  "description": "<img src=\"https://socialify.git.ci/SlaughterBlade/Co-Pilot/image?description=1&descriptionEditable=Co-Pilot%20is%20a%20discord%20Bot%20designed%20to%20be%20the%20all-in-one%2C%20open-source%20Discord%20bot%20that%20handles%20all%20your%20server%20needs.&font=Raleway&logo=https%3A%2F%2Fi.ibb.co%2FgTdF2sy%2Fco-pilot-logo.png&pattern=Plus&theme=Dark\" alt=\"Co-Pilot\" width=\"1040\" height=\"320\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlaughterBlade/Co-Pilot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlaughterBlade/Co-Pilot/issues"
+  },
+  "homepage": "https://github.com/SlaughterBlade/Co-Pilot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.28.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  }
+}
