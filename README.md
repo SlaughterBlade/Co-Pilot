@@ -55,12 +55,26 @@
 
 ## 🚀 Getting Started
 
-....
+```sh
+git clone https://github.com/SlaughterBlade/Co-Pilot.git
+cd Co-Pilot
+npm install
+```
 
 ## ⚙️ Configuration
 
-....
+Copy or Rename config.json.example to config.json and fill out the values:
 
+⚠️ Note: Never commit or share your token or api keys publicly ⚠️
+```json
+{
+  "clientId": "",
+  "guildId": "",
+  "token": "",
+  "PREFIX": ""
+}
+
+```
 
 ## 📝 Current Features & Commands
 
@@ -72,7 +86,13 @@
 
 ## 🤝 Contributing
 
-....
+1. [Fork the repository](https://github.com/SlaughterBlade/Co-Pilot/fork)
+2. Clone your fork: `git clone https://github.com/your-username/Co-Pilot.git`
+3. Create your feature branch: `git checkout -b my-new-feature`
+4. Stage changes `git add .`
+5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`
+6. Push to the branch: `git push origin my-new-feature`
+7. Submit a pull request
 
 ## 📝 Credits
 
