@@ -29,7 +29,7 @@ for (const file of commandFiles) {
 }
 
 
-// commands
+// Execute the command when a new interaction is requested
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isCommand()) return;
 

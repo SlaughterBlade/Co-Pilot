@@ -24,36 +24,55 @@
     <img alt="Support Server Link" src="https://img.shields.io/discord/946488927865417759.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" />
    </a>
 </p>
-<h1 align="center">Welcome to Co-Pilot Bot repo! 👋</h1>
+<h2 align="center">Welcome to Co-Pilot Bot repo! 👋</h2>
 
-# 🤖 Co-Pilot (All-in-one Discord Bot)
-> Co-Pilot is a discord Bot designed to be the all-in-one, open-source Discord bot that handles all your server needs.
+**🤖 Co-Pilot (All-in-one Discord Bot)**<br>
+ [**Co-Pilot**](https://github.com/SlaughterBlade/Co-Pilot) is a discord Bot designed to be the all-in-one, open-source Discord bot that handles all your server needs.
 
-## 📝 To-Do
+### 📝 To-Do
 
 <ol>
-  <li>Playing music</li>
-  <li>Moderation</li>
-  <li>AutoMod</li>
-  <li>Welcomer</li>
-  <li>Logs</li>
-  <li>Embed Messages</li>
-  <li>Reaction Roles</li>
-  <li>Auto Message</li>
-  <li>Auto Responder</li>
-  <li>Leveling System for Text and VC</li>
-  <li>Custom Commands</li>
-  <li>Statics Counter</li>
-  <li>Temporary Channels</li>
-  <li>Birthday Reminder</li>
-  <li>Support-Ticket System</li>
-  <li>Stream alerts</li>
-  <li>Game Patch</li>
+
+  <li>
+- [ ] Playing music</Li>
+  <li>
+- [ ] Moderation</li>
+  <li>
+- [ ] AutoMod</li>
+  <li>
+- [ ] Welcomer</li>
+  <li>
+- [ ] Logs</li>
+  <li>
+- [ ] Embed Messages</li>
+  <li>
+- [ ] Reaction Roles</li>
+  <li>
+- [ ] Auto Message</li>
+  <li>
+- [ ] Auto Responder</li>
+  <li>
+- [ ] Leveling System for Text and VC</li>
+  <li>
+- [ ] Custom Commands</li>
+  <li>
+- [ ] Statics Counter</li>
+  <li>
+- [ ] Temporary Channels</li>
+  <li>
+- [ ] Birthday Reminder</li>
+  <li>
+- [ ] Support-Ticket System</li>
+  <li>
+- [ ] Stream alerts</li>
+  <li>
+- [ ] Game Patch
+</li>
 </ol>
 
 ## Requirements
 
-....
+This uses Discord v13, so you need to have [`Node v16+`](https://nodejs.org) installed on your end
 
 ## 🚀 Getting Started
 
@@ -65,9 +84,9 @@ npm install
 
 ## ⚙️ Configuration
 
-Copy or Rename config.json.example to config.json and fill out the values:
+Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
-⚠️ Note: Never commit or share your token or api keys publicly ⚠️
+**⚠️ Note: Never commit or share your token or api keys publicly ⚠️**
 ```json
 {
   "clientId": "",
@@ -84,7 +103,7 @@ Copy or Rename config.json.example to config.json and fill out the values:
 
 ## 🌎 Locales
 
-....
+None Yet
 
 ## 🤝 Contributing
 
