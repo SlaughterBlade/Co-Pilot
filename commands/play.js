@@ -32,7 +32,7 @@ module.exports = {
 			const searchResult = await player
 				.search(query, {
 					requestedBy: interaction.user,
-					searchEngine: QueryType.YOUTUBE_SEARCH,
+					searchEngine: QueryType.AUTO,
 				})
 				.catch(() => {});
 			if (!searchResult || !searchResult.tracks.length) {return void interaction.followUp({ content: 'No results were found!' });}
