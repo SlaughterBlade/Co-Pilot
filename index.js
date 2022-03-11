@@ -2,8 +2,8 @@
 const fs = require('node:fs');
 const Discord = require('discord.js');
 const Client = require('./client/Client');
-const { DISCORD_TOKEN } = require('./.env');
-// const { token } = require('./config.json');
+// const Env = require('./.env');
+const { token } = require('./config.json');
 
 // Create a new client instance
 const client = new Client();
@@ -49,4 +49,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 // Login to Discord with your client's token
-client.login(DISCORD_TOKEN);
+client.login(token);
