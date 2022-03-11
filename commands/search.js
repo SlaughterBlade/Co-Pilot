@@ -11,8 +11,8 @@ module.exports = new Command({
 		{ description: 'Song name', name: 'song', required: true, type: 3 },
 	],
 	async run(message, args, client, slash) {
-		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0xb84e44 }], ephemeral: true });}
-		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0xb84e44 }], ephemeral: true });}
+		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0x000000 }], ephemeral: true });}
+		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0x000000 }], ephemeral: true });}
 		if(!args[0]) return;
 
 		if(!message.guild.me.permissionsIn(message.member.voice.channel).has(client.requiredVoicePermissions)) return;
@@ -21,12 +21,12 @@ module.exports = new Command({
 		const query = args.join(' ');
 		const searchResult = await client.player.search(query, { requestedBy: slash ? message.user : message.author, searchEngine: 'dodong' });
 		if (!searchResult || !searchResult.tracks.length) {
-			const reply = { embeds: [{ description: 'No results found!', color: 0xb84e44 }], ephemeral: true };
+			const reply = { embeds: [{ description: 'No results found!', color: 0x000000 }], ephemeral: true };
 			slash ? message.editReply(reply) : message.reply(reply);
 			return;
 		}
 		if (searchResult.playlist) {
-			const reply = { embeds: [{ description: `This command does not support playlists.\nUse **${client.prefix}play** instead.`, color: 0xb84e44 }], ephemeral: true };
+			const reply = { embeds: [{ description: `This command does not support playlists.\nUse **${client.prefix}play** instead.`, color: 0x000000 }], ephemeral: true };
 			slash ? message.editReply(reply) : message.reply(reply);
 			return;
 		}
@@ -76,7 +76,7 @@ module.exports = new Command({
 			}
 			catch {
 				client.player.deleteQueue(message.guild);
-				sMessage.edit({ embeds: [{ description: 'Could not join your voice channel!', color: 0xb84e44 }], components: [] });
+				sMessage.edit({ embeds: [{ description: 'Could not join your voice channel!', color: 0x000000 }], components: [] });
 				return collector.stop('messageDelete');
 			}
 

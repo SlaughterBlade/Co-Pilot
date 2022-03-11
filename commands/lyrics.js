@@ -18,7 +18,7 @@ module.exports = new Command({
 
 			const result = await client.lyrics.search(query);
 			if(!result) {
-				message.reply({ embeds: [{ description: !args ? 'No lyrics found for `' + query + '`.\nTry manually searching using `' + client.prefix + 'lyrics <songtitle>`' : 'No lyrics found for `' + query + '`. Try being more specific with your query!', color: 0xb84e44 }], ephemeral: true });
+				message.reply({ embeds: [{ description: !args ? 'No lyrics found for `' + query + '`.\nTry manually searching using `' + client.prefix + 'lyrics <songtitle>`' : 'No lyrics found for `' + query + '`. Try being more specific with your query!', color: 0x000000 }], ephemeral: true });
 			}
 			else {
 				const trimmedLyrics = result.lyrics.length > 4095 ? result.lyrics.substring(0, 4092) + '...' : result.lyrics;

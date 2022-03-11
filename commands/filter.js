@@ -15,11 +15,11 @@ module.exports = new Command({
 	aliases: ['f'],
 	async run(message, args, client, slash) {
 
-		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0xb84e44 }], ephemeral: true });}
-		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0xb84e44 }], ephemeral: true });}
+		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0x000000 }], ephemeral: true });}
+		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0x000000 }], ephemeral: true });}
 		const queue = client.player.getQueue(message.guild);
 		const embed = new MessageEmbed();
-		if(!queue || !queue.playing) {return message.reply({ embeds: [{ description: 'Nothing is currently playing in this server.', color: 0xb84e44 }], ephemeral: true });}
+		if(!queue || !queue.playing) {return message.reply({ embeds: [{ description: 'Nothing is currently playing in this server.', color: 0x000000 }], ephemeral: true });}
 		if(!args) {
 			if(queue && queue.playing) {display_status(queue, embed, message);}
 			return;
@@ -99,7 +99,7 @@ const display_help = (queue, embed, message) => {
 const display_status = async (queue, embed, message) => {
 	const enabledFilters = await queue.getFiltersEnabled();
 
-	embed.setColor('#b84e44');
+	embed.setColor('#000000');
 	if(enabledFilters.length == 0) {
 		embed.setDescription(`There are currently no active filters. Use **${prefix}f help** to view all available filters.`);
 	}

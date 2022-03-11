@@ -11,8 +11,8 @@ module.exports = new Command({
 		{ description: 'URL or song name', name: 'song', required: true, type: 3 },
 	],
 	async run(message, args, client, slash) {
-		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0xb84e44 }], ephemeral: true });}
-		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0xb84e44 }], ephemeral: true });}
+		if(!message.member.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in a voice channel!', color: 0x000000 }], ephemeral: true });}
+		if(message.guild.me.voice.channelId && message.member.voice.channelId !== message.guild.me.voice.channelId) {return message.reply({ embeds: [{ description: 'You are not in my voice channel!', color: 0x000000 }], ephemeral: true });}
 		if(!args[0]) return;
 
 		if(!message.guild.me.permissionsIn(message.member.voice.channel).has(client.requiredVoicePermissions)) return;
@@ -21,7 +21,7 @@ module.exports = new Command({
 		let query = args.join(' '), reply = {};
 		const searchResult = await client.player.search(query, { requestedBy: slash ? message.user : message.author, searchEngine: 'dodong' });
 		if (!searchResult || !searchResult.tracks.length) {
-			reply = { embeds: [{ description: 'No results found!', color: 0xb84e44 }], ephemeral: true };
+			reply = { embeds: [{ description: 'No results found!', color: 0x000000 }], ephemeral: true };
 			slash ? message.editReply(reply) : message.reply(reply);
 			return;
 		}
@@ -44,7 +44,7 @@ module.exports = new Command({
 		}
 		catch {
 			client.player.deleteQueue(message.guild);
-			reply = { embeds: [{ description: 'Could not join your voice channel!', color: 0xb84e44 }] };
+			reply = { embeds: [{ description: 'Could not join your voice channel!', color: 0x000000 }] };
 			slash ? message.editReply(reply) : message.reply(reply);
 			return;
 		}

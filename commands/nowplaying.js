@@ -10,7 +10,7 @@ module.exports = new Command({
 		const queue = client.player.getQueue(message.guild);
 		if (!queue || !queue.playing) {
 			const embed = new MessageEmbed();
-			embed.setColor('#b84e44');
+			embed.setColor('#000000');
 			embed.setDescription('There\'s nothing currently playing in the server.');
 			return message.reply({ embeds: [embed] });
 		}

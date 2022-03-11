@@ -14,7 +14,7 @@ module.exports = new Command({
 			if(_fromButton) return;
 			const embed = new MessageEmbed();
 			embed.setTitle('Server Queue');
-			embed.setColor('#b84e44');
+			embed.setColor('#000000');
 			embed.setDescription('No songs in the queue.');
 			return message.reply({ embeds: [embed] });
 		}
@@ -36,7 +36,7 @@ module.exports = new Command({
 						? `\n... ${queue.tracks.length - pageEnd} more track(s)`
 						: ''
 				}`);
-				if(page % 2 === 0) embed.setColor('#b84e44');
+				if(page % 2 === 0) embed.setColor('#000000');
 				else embed.setColor('#44b868');
 				const title = ['spotify-custom', 'soundcloud-custom'].includes(queue.current.source) ?
 					`${queue.current.author} - ${queue.current.title}` : `${queue.current.title}`;

@@ -8,7 +8,7 @@ module.exports = new Command({
 	async run(message, args, client, slash) {
 		const queue = client.player.getQueue(message.guild);
 		if (!queue || !queue.playing) {
-			return message.reply({ embeds: [{ description: 'There\'s nothing currently playing in the server.', color: 0xb84e44 }], ephemeral: true });
+			return message.reply({ embeds: [{ description: 'There\'s nothing currently playing in the server.', color: 0x000000 }], ephemeral: true });
 		}
 		if (slash) {message.reply({ embeds: [{ description: 'Sent a private message!', color: 0x44b868 }], ephemeral: true });}
 		else {message.react('📩');}

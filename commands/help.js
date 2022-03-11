@@ -27,7 +27,7 @@ module.exports = new Command({
 				const embed = new MessageEmbed();
 				embed.setAuthor({ name: 'Commands' });
 				embed.setDescription(`${commands.join('\n')}`);
-				embed.setColor(page % 2 ? '#44b868' : '#b84e44');
+				embed.setColor(page % 2 ? '#44b868' : '#000000');
 				pages.push(embed);
 				page++;
 			}

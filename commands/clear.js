@@ -11,7 +11,7 @@ module.exports = new Command({
 		if (queue) {
 			queue.clear();
 
-        	slash ? message.reply({ embeds: [{ description: '✅ Queue has been cleared.', color: 0x44b868 }] }) : message.react('✅');
+        	slash ? message.reply({ embeds: [{ description: '✅ Queue has been cleared.', color: 0x000000 }] }) : message.react('✅');
 		}
 	},
 });
