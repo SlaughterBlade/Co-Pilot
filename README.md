@@ -1,4 +1,7 @@
 <img src="https://socialify.git.ci/SlaughterBlade/Co-Pilot/image?description=1&descriptionEditable=Co-Pilot%20is%20a%20discord%20Bot%20designed%20to%20be%20the%20all-in-one%2C%20open-source%20Discord%20bot%20that%20handles%20all%20your%20server%20needs.&font=Raleway&logo=https%3A%2F%2Fi.ibb.co%2FgTdF2sy%2Fco-pilot-logo.png&pattern=Plus&theme=Dark" alt="Co-Pilot" width="1040" height="320" />
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000&style=for-the-badge&logo=github?label=healthinesses" />
@@ -180,3 +183,23 @@ The Amazing music commands from [Dodong Repo](https://github.com/nizeic/Dodong).
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Nishant1500"><img src="https://avatars.githubusercontent.com/u/53296643?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nishant1500</b></sub></a><br /><a href="https://github.com/SlaughterBlade/Co-Pilot/commits?author=Nishant1500" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
