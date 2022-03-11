@@ -120,7 +120,38 @@ cors: '*'
 
 ## 📝 Current Features & Commands
 
-🚧 Work in progress 
+All the commands are reigestered as slash "/" commands ,and the defaul prefix is "!".
+
+### General Commands
+
+- `help` -> Displays all server commands.
+- `links` -> Displays associated links.
+- `ping` -> Shows the ping of the bot.
+- `testslash` -> Register slash commands for the server.
+
+### Music Playback Commands
+
+- `clear` -> Clears the server queue.
+- `disconnect` -> Disconnects from the music channel and clears the server queue.
+- `filter` -> View and set audio filters.
+- `grab` -> Sends a private message to you with information about the current playing song.
+- `insert` -> Inserts the song specified to the next position in the queue.
+- `loop` -> Loops the server queue.
+- `lyrics` -> Displays the lyrics of the current or specified song.
+- `move` -> Moves a song to a different position in the queue.
+- `nowplaying` -> Displays information about the song currently playing.
+- `pause` -> Pauses the queue.
+- `play` -> Plays the song specified.
+- `previous` -> Plays the previous track.
+- `queue` -> Displays the server queue.
+- `remove` -> Removes a song from the queue.
+- `resume` -> Resumes the queue if it is paused.
+- `search` -> Searches for a song.
+- `seek` -> Clears the server queue.
+- `shuffle` -> Shuffles the server queue.
+- `skip` -> Skips to the next song in the queue.
+- `together` -> Discord Together!.
+- `volume` -> Adjusts the bot volume.
 
 ## 🌎 Locales
 
