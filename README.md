@@ -29,6 +29,19 @@
 **🤖 Co-Pilot (All-in-one Discord Bot)**<br>
  [**Co-Pilot**](https://github.com/SlaughterBlade/Co-Pilot) is a discord Bot designed to be the all-in-one, open-source Discord bot that handles all your server needs.
 
+## Table of content
+
+* [To-Do](#📝-to-do)
+* [Requirements](#requirements)
+* [Getting Started](#🚀-getting-started)
+* [Configuration](#⚙️-configuration)
+* [Current Features & Commands](#📝-current-features--commands)
+* [Locales](#🌎-locales)
+* [Contributing](#🤝-contributing)
+* [Support me](#support-me)
+* [Credits](#📝-credits)
+* [License](#license)
+
 ### 📝 To-Do
 
 <ol>
@@ -72,7 +85,9 @@
 
 ## Requirements
 
-This uses Discord v13, so you need to have [`Node v16+`](https://nodejs.org) installed on your end
+- [`Node v16+`](https://nodejs.org)
+- [NPM](https://www.npmjs.com/)
+- [FFMPEG](https://www.ffmpeg.org/)
 
 ## 🚀 Getting Started
 
@@ -84,6 +99,8 @@ npm install
 
 ## ⚙️ Configuration
 
+Copy or Rename `.env.example` to `.env` and fill out the values:
+OR
 Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 **⚠️ Note: Never commit or share your token or api keys publicly ⚠️**
@@ -92,20 +109,24 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
   "clientId": "",
   "guildId": "",
   "token": "",
-  "PREFIX": ""
+  "PREFIX": "",
+  "activityType": "",
+  "activity": ""
 }
 
 ```
 
 ## 📝 Current Features & Commands
 
-....
+None Yet
 
 ## 🌎 Locales
 
 None Yet
 
 ## 🤝 Contributing
+
+You are welcome to contribute
 
 1. [Fork the repository](https://github.com/SlaughterBlade/Co-Pilot/fork)
 2. Clone your fork: `git clone https://github.com/your-username/Co-Pilot.git`
@@ -115,6 +136,14 @@ None Yet
 6. Push to the branch: `git push origin my-new-feature`
 7. Submit a pull request
 
+## Support me
+
+<a href="https://www.buymeacoffee.com/ymafalha" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 ## 📝 Credits
 
 ....
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
