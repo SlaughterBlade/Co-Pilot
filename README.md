@@ -86,8 +86,8 @@
 ## Requirements
 
 - [`Node v16+`](https://nodejs.org)
-- [NPM](https://www.npmjs.com/)
-- [FFMPEG](https://www.ffmpeg.org/)
+- [`NPM`](https://www.npmjs.com)
+- [`FFMPEG`](https://www.ffmpeg.org)
 
 ## 🚀 Getting Started
 
@@ -118,7 +118,7 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
 ## 📝 Current Features & Commands
 
-None Yet
+🚧 Work in progress 
 
 ## 🌎 Locales
 
