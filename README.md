@@ -120,7 +120,7 @@ cors: '*'
 
 ## 📝 Current Features & Commands
 
-All the commands are reigestered as slash "/" commands ,and the defaul prefix is "!".
+All the commands are reigestered as slash "/" commands ,and the default prefix is "!".
 
 ### General Commands
 
