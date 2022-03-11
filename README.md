@@ -101,18 +101,17 @@ npm install
 
 Copy or Rename `.env.example` to `.env` and fill out the values:
 OR
-Copy or Rename `config.json.example` to `config.json` and fill out the values:
+Copy or Rename `config.js.example` to `config.js` and fill out the values:
 
 **⚠️ Note: Never commit or share your token or api keys publicly ⚠️**
-```json
-{
-  "clientId": "",
-  "guildId": "",
-  "token": "",
-  "PREFIX": "",
-  "activityType": "",
-  "activity": ""
-}
+```js
+  prefix: '!',
+	botToken: '',
+	clientId: '',
+	geniusApiToken: '', 
+
+	webplayer: '',
+	cors: '*',
 
 ```
 
