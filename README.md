@@ -47,7 +47,7 @@
 <ol>
 
   <li>
-- [ ] Playing music</Li>
+- [✔️] Playing music</Li>
   <li>
 - [ ] Moderation</li>
   <li>
