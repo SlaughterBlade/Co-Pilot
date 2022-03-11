@@ -112,7 +112,7 @@ Copy or Rename `config.js.example` to `config.js` and fill out the values:
 	geniusApiToken: '', 
 
 	webplayer: '',
-	cors: '*',
+	cors: '*'
 
 ```
 
