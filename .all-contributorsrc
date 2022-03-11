@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Nishant1500",
+      "name": "Nishant1500",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53296643?v=4",
+      "profile": "https://github.com/Nishant1500",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Co-Pilot",
+  "projectOwner": "SlaughterBlade",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
