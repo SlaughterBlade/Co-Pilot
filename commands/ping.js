@@ -11,4 +11,3 @@ module.exports = {
 		interaction.editReply(`Roundtrip latency: ${sent.createdTimestamp - interaction.createdTimestamp}ms`);
 	},
 };
-
