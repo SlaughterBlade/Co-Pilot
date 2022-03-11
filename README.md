@@ -31,15 +31,15 @@
 
 ## Table of content
 
-* [To-Do](#to-do)
+* [To-Do](#📝-to-do)
 * [Requirements](#requirements)
-* [Getting Started](#getting-started)
-* [Configuration](#configuration)
-* [Current Features & Commands](#current-features--commands)
-* [Locales](#locales)
-* [Contributing](#contributing)
+* [Getting Started](#🚀-getting-started)
+* [Configuration](#⚙️-configuration)
+* [Current Features & Commands](#📝-current-features--commands)
+* [Locales](#🌎-locales)
+* [Contributing](#🤝-contributing)
 * [Support me](#support-me)
-* [Credits](#credits)
+* [Credits](#📝-credits)
 * [License](#license)
 
 ### 📝 To-Do
