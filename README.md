@@ -142,7 +142,7 @@ You are welcome to contribute
 
 ## 📝 Credits
 
-....
+The Amazing music commands from [Dodong Repo](https://github.com/nizeic/Dodong).
 
 ## License
 
