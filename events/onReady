@@ -1,0 +1,6 @@
+module.exports = {
+	name: 'ready',
+	execute(client, config) {
+		client.user.setActivity(config.activity, { type: config.activityType });
+	},
+};
