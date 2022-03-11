@@ -1,5 +1,5 @@
 module.exports = {
-	name: 'ready',
+	name: 'reconnecting',
 	once: true,
 	execute() {
 		console.log('Reconnecting!');
