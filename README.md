@@ -129,7 +129,7 @@ All the commands are reigestered as slash "/" commands ,and the default prefix i
 - `ping` -> Shows the ping of the bot.
 - `testslash` -> Register slash commands for the server.
 
-### Music Playback Commands
+### 🔊 Music Playback Commands
 
 - `clear` -> Clears the server queue.
 - `disconnect` -> Disconnects from the music channel and clears the server queue.
