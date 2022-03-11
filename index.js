@@ -2,6 +2,7 @@
 const fs = require('node:fs');
 const Discord = require('discord.js');
 const Client = require('./client/Client');
+const { Player } = require('discord-player');
 // const Env = require('./.env');
 const { token } = require('./config.json');
 
@@ -30,6 +31,36 @@ for (const file of commandFiles) {
 	client.commands.set(command.data.name, command);
 }
 console.log(client.commands);
+
+const player = new Player(client);
+
+player.on('error', (queue, error) => {
+	console.log(`[${queue.guild.name}] Error emitted from the queue: ${error.message}`);
+});
+
+player.on('connectionError', (queue, error) => {
+	console.log(`[${queue.guild.name}] Error emitted from the connection: ${error.message}`);
+});
+
+player.on('trackStart', (queue, track) => {
+	queue.metadata.send(`▶ | Started playing: **${track.title}** in **${queue.connection.channel.name}**!`);
+});
+
+player.on('trackAdd', (queue, track) => {
+	queue.metadata.send(`🎶 | Track **${track.title}** queued!`);
+});
+
+player.on('botDisconnect', queue => {
+	queue.metadata.send('❌ | I was manually disconnected from the voice channel, clearing queue!');
+});
+
+player.on('channelEmpty', queue => {
+	queue.metadata.send('❌ | Nobody is in the voice channel, leaving...');
+});
+
+player.on('queueEnd', queue => {
+	queue.metadata.send('✅ | Queue finished!');
+});
 
 // Execute the command when a new interaction is requested
 client.on('interactionCreate', async interaction => {
