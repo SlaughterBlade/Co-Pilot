@@ -1,10 +1,11 @@
 // Require the necessary discord.js classes
 const fs = require('node:fs');
-const { Client, Collection, Intents } = require('discord.js');
+const Discord = require('discord.js');
+const Client = require('./client/Client');
 const { token } = require('./config.json');
 
 // Create a new client instance
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client();
 
 const eventFiles = fs.readdirSync('./events').filter(file => file.endsWith('.js'));
 
@@ -18,7 +19,7 @@ for (const file of eventFiles) {
 	}
 }
 
-client.commands = new Collection();
+client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
@@ -27,7 +28,7 @@ for (const file of commandFiles) {
 	// With the key as the command name and the value as the exported module
 	client.commands.set(command.data.name, command);
 }
-
+console.log(client.commands);
 
 // Execute the command when a new interaction is requested
 client.on('interactionCreate', async interaction => {

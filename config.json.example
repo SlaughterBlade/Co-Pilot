@@ -2,5 +2,7 @@
   "clientId": "",
   "guildId": "",
   "token": "",
-  "PREFIX": ""
+  "PREFIX": "",
+  "activityType": "PLAYING",
+  "activity": "your music selections"
 }
