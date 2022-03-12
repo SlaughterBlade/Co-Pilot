@@ -1,0 +1,38 @@
+{
+    "name": "co-pilot",
+    "description": "Co-Pilot is a discord Bot designed to be the all-in-one, open-source Discord bot that handles all your server needs.",
+    "repository": "https://github.com/SlaughterBlade/Co-Pilot",
+    "keywords": ["discord", "bot", "discordjs"],
+    "image": "heroku/nodejs",
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+  "env": {
+        "PREFIX": {
+            "description": "Command prefix for the bot (default: !)",
+            "required": false
+        },
+        "BOTTOKEN": {
+            "description": "Bot token (https://discordjs.guide/preparations/setting-up-a-bot-application.html#your-token)",
+            "required": true
+        },
+        "GENIUSAPITOKEN": {
+            "description": "Genius.com Client Access Token (https://genius.com/api-clients) - Optional",
+            "required": false
+        },
+        "CLIENTID": {
+            "description": "Bot client/application ID - optional, for slash commands",
+            "required": false
+        }
+    },
+    "formation": {
+        "worker": {
+          "quantity": 1
+        },
+        "web": {
+            "quantity": 0
+        }
+    }
+}
