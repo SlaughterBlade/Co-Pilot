@@ -19,56 +19,64 @@ module.exports = new Command({
 					.setMaxValues(1)
 					.addOptions([
 						{
-							label: 'YouTube',
+							label: 'Watch Together',
 							value: '880218394199220334',
 						},
 						{
-							label: 'sketchheads',
-							value: '902271654783242291',
-						},
-						{
-							label: 'Blazing 8s',
-							value: '832025144389533716',
-						},
-						{
-							label: 'Poker',
+							label: 'Poker Night',
 							value: '755827207812677713',
 						},
 						{
-							label: 'Chess',
-							value: '832012774040141894',
-						},
-						{
-							label: 'Checkers',
-							value: '832013003968348200',
-						},
-						{
-							label: 'Betrayal',
+							label: 'Betrayal.io',
 							value: '773336526917861400',
 						},
 						{
-							label: 'Fishington',
+							label: 'Fishington.io',
 							value: '814288819477020702',
 						},
 						{
-							label: 'Words Snack',
-							value: '879863976006127627',
+							label: 'Chess In The Park',
+							value: '832012774040141894',
 						},
 						{
-							label: 'Doodle Crew',
-							value: '878067389634314250',
-						},
-						{
-							label: 'Spellcast',
-							value: '852509694341283871',
+							label: 'Sketchy Artist',
+							value: '879864070101172255',
 						},
 						{
 							label: 'Awkword',
 							value: '879863881349087252',
 						},
 						{
-							label: 'Letter Tile',
+							label: 'Doodle Crew',
+							value: '878067389634314250',
+						},
+						{
+							label: 'Sketch Heads',
+							value: '902271654783242291',
+						},
+						{
+							label: 'Letter League',
 							value: '879863686565621790',
+						},
+						{
+							label: 'Word Snacks',
+							value: '879863976006127627',
+						},
+						{
+							label: 'SpellCast',
+							value: '852509694341283871',
+						},
+						{
+							label: 'Checkers In The Park',
+							value: '832013003968348200',
+						},
+						{
+							label: 'Blazing 8s',
+							value: '832025144389533716',
+						},
+						{
+							label: 'Putt Party',
+							value: '945737671223947305',
 						},
 					]),
 			);
