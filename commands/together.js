@@ -27,6 +27,10 @@ module.exports = new Command({
 							value: '902271654783242291',
 						},
 						{
+							label: 'Blazing 8s',
+							value: '832025144389533716',
+						},
+						{
 							label: 'Poker',
 							value: '755827207812677713',
 						},
