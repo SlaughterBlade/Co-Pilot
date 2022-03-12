@@ -98,11 +98,19 @@
 
 ## 🚀 Getting Started
 
+### Invite Co-Pilot
+- [`Co-Pilot V1`](https://discord.com/api/oauth2/authorize?client_id=951083742447931392&permissions=8&scope=bot%20applications.commands)
+ 
+### Deploy or Run Locally
+
 ```sh
 git clone https://github.com/SlaughterBlade/Co-Pilot.git
 cd Co-Pilot
 npm install
 ```
+and npm run start to start locally, or deploy it on 
+
+[![Run on Repl.it](https://repl.it/badge/github/SlaughterBlade/Co-Pilot)](https://repl.it/github/SlaughterBlade/Co-Pilot)
 
 ## ⚙️ Configuration
 
