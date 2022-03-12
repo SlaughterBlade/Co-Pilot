@@ -105,10 +105,10 @@ npm install
 ## ⚙️ Configuration
 
 Copy or Rename `.env.example` to `.env` and fill out the values:
-OR
-Copy or Rename `config.js.example` to `config.js` and fill out the values:
 
 **⚠️ Note: Never commit or share your token or api keys publicly ⚠️**
+`config.js` Template
+
 ```js
 module.exports = {
 prefix: '!',
