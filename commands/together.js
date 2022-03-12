@@ -23,6 +23,10 @@ module.exports = new Command({
 							value: '880218394199220334',
 						},
 						{
+							label: 'sketchheads',
+							value: '902271654783242291',
+						},
+						{
 							label: 'Poker',
 							value: '755827207812677713',
 						},
