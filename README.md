@@ -108,7 +108,15 @@ git clone https://github.com/SlaughterBlade/Co-Pilot.git
 cd Co-Pilot
 npm install
 ```
-and npm run start to start locally, or deploy it on 
+To Start Locally
+
+```sh
+npm run start
+```
+
+To Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SlaughterBlade/Co-Pilot)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 [![Run on Repl.it](https://repl.it/badge/github/SlaughterBlade/Co-Pilot)](https://repl.it/github/SlaughterBlade/Co-Pilot)
 
