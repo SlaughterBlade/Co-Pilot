@@ -45,6 +45,7 @@
 * [Support me](#support-me)
 * [Credits](#📝-credits)
 * [License](#license)
+* [Contributors](#Contributors-✨)
 
 ### 📝 To-Do
 
