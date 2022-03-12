@@ -85,6 +85,8 @@
 - [ ] Stream alerts</li>
   <li>
 - [ ] Game Patch
+  <li>
+- [x] Voice Activity
 </li>
 </ol>
 
@@ -155,8 +157,45 @@ All the commands are reigestered as slash "/" commands ,and the default prefix i
 - `seek` -> Clears the server queue.
 - `shuffle` -> Shuffles the server queue.
 - `skip` -> Skips to the next song in the queue.
-- `together` -> Discord Together!.
 - `volume` -> Adjusts the bot volume.
+
+### Voice Activity
+
+- `together` -> Discord Together!.
+
+#### Stable versions
+| Application name | Boost level | Max participants |
+| --- | --- | --- |
+| Watch Together | 0 | Unlimited |
+| Poker Night | 1 |25 |
+| Betrayal.io | 0 | Unlimited |
+| Fishington.io | 0 | Unlimited |
+| Chess In The Park | 1 | Unlimited |
+| Sketchy Artist | 0 | 12 |
+| Awkword | 0 | 12 |
+| Doodle Crew | 0 | 16 |
+| Sketch Heads | 0 | 16 |
+| Letter League | 1 | 8 |
+| Word Snacks | 0 | 8 |
+| SpellCast | 1 | 100 |
+| Checkers In The Park | 1 | Unlimited |
+| Blazing 8s | 1 | 8 |
+| Putt Party | 0 | Unlimited |
+
+#### Development versions
+| Application name | Boost level | Max participants |
+| --- | --- | --- |
+| PN Dev | 0 | 25 |
+| Watch Together Dev | 0 | Unlimited |
+| Doodle Crew Dev | 0 | 16 |
+| Word Snacks Dev | 0 | 32 |
+| Sketchy Artist Dev | 0 | 12 |
+| Decoders Dev | 0 | 32 |
+| CG 2 Dev | 0 | Unlimited |
+| CG 3 Dev(Also known as checkers in the park) | 0 | Unlimited |
+| CG4 Dev | 0 | 8 |
+| Putt Party Dev | 0 | Unlimited |
+
 
 ## 🌎 Locales
 
