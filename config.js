@@ -12,4 +12,3 @@ module.exports = {
 	webplayer: '', // optional
 	cors: '*', // optional - stored in an array for multiple socket connections in the future. Set to "*" to accept all
 };
-
